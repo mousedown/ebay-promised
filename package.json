@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ondreian/ebay-promised.git"
+    "url": "git+ssh://git@github.com/ondreian/ebay-promised.git"
   },
   "keywords": [
     "ebay",
@@ -42,5 +42,12 @@
   "config": {
     "out": "lib",
     "in": "es6"
+  },
+  "bugs": {
+    "url": "https://github.com/ondreian/ebay-promised/issues"
+  },
+  "homepage": "https://github.com/ondreian/ebay-promised#readme",
+  "directories": {
+    "test": "test"
   }
 }
