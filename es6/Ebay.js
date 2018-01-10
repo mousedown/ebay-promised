@@ -31,6 +31,7 @@ export default class Ebay {
       , app       : process.env.EBAY_APP_ID  || throws.Env_Error("EBAY_APP_ID")
       , devName   : process.env.EBAY_DEV_ID  || throws.Env_Error("EBAY_DEV_ID")
       , sandbox   : process.env.EBAY_SANDBOX || false
+      , apiv      : process.env.API_VERSION  || "775"
     })
   }
 

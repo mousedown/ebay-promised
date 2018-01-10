@@ -75,7 +75,7 @@ export default class Request {
      */
     this.headers = {
         "X-EBAY-API-CALL-NAME"           : this.verb
-      , "X-EBAY-API-COMPATIBILITY-LEVEL" : "775"
+      , "X-EBAY-API-COMPATIBILITY-LEVEL" : this.globals.apiv
       , "X-EBAY-API-CERT-NAME"           : this.globals.cert
       , "X-EBAY-API-SITEID"              : this.globals.site || 0
       , "X-EBAY-API-APP-NAME"            : this.globals.app  || "node.js::ebay-promised"
