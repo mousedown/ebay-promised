@@ -1,5 +1,4 @@
 *.private.js
 node_modules
-lib
 *.sublime*
 *.log
