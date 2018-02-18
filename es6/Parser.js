@@ -47,7 +47,7 @@ export default class Parser {
    */
   static cast ( value, key ) {
     
-    if (!isNaN( value ))   return Number( value )
+    if (!isNaN( value ) && value.charAt(0) != 0 ) return Number( value )
 
     if (value === "true")  return true
 
